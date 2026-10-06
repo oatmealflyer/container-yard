@@ -1,0 +1,17 @@
+.yard-grid{ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /*같은 너비로 3열을 만듦 */
+  gap: 16px;
+  max-width: 600px;
+}
+.yard-slot{
+  height: 120px;
+  border : 1px solid #999;
+  border-radius: 8px;
+}
+.yard-slot.empty{
+  background-color: #dcfce7;
+}
+.yard-slot.assigned{
+  background-color: #fee2e2;
+}
